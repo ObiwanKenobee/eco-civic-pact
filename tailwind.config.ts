@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Nature-inspired colors
+				earth: 'hsl(var(--earth))',
+				sky: 'hsl(var(--sky))',
+				leaf: 'hsl(var(--leaf))',
+				water: 'hsl(var(--water))',
+				sun: 'hsl(var(--sun))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +69,19 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-nature': 'var(--gradient-nature)',
+				'gradient-sky': 'var(--gradient-sky)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'organic': 'var(--shadow-organic)',
+				'earth': 'var(--shadow-earth)'
+			},
+			transitionTimingFunction: {
+				'organic': 'var(--transition-organic)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
